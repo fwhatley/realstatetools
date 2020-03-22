@@ -4,7 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <div class="container mx-auto">
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -17,7 +19,13 @@
   color: #2c3e50;
 }
 
+body {
+  background-color: #e2e8f0;
+}
+
+
 #nav {
+
   padding: 30px;
 
   a {
